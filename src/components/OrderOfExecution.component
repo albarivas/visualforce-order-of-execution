@@ -1,0 +1,5 @@
+<apex:component controller="ComponentController" extensions="ComponentExtension1,ComponentExtension2">
+    <apex:attribute name="param1" description="This is my param1" type="String" assignTo="{!param1Component}"/>
+    <p> Param1Component: {!param1Component} </p>
+    <p> Param1ComponentCopy: {!param1ComponentCopy} </p>
+</apex:component>

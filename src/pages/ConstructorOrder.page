@@ -1,0 +1,5 @@
+<apex:page action="{!populateActionParam}" controller="MyVFController" extensions="MyExtension1,MyExtension2">
+    hello!
+    <c:OrderOfExecution param1="{!param1}"/>
+    {!actionParam}
+</apex:page>
